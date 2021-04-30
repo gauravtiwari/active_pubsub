@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'rails'
 require_relative "adapters/active_support_notifications"
 require_relative "subscriber_registry"
 require_relative "configuration"
